@@ -7,10 +7,10 @@ import javax.persistence.Query;
 
 /**
  *
- * @author SYSADMIN
+ * @author robson
  */
 public class VeiculoDao extends GenericDao {
-    
+
     public List<Veiculo> buscarVeiculoTipo(String tipo) {
         EntityManager em = getEntityManager();
         Query buscar = em.createNamedQuery("veiculo.tipo");
@@ -58,5 +58,5 @@ public class VeiculoDao extends GenericDao {
             atualizar(oVeiculo);
         }
     }
-    
+
 }

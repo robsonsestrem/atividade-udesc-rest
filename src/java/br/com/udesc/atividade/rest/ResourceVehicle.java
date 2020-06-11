@@ -17,7 +17,7 @@ import javax.ws.rs.core.MediaType;
 /**
  * REST Web Service
  *
- * @author SYSADMIN
+ * @author robson
  */
 @Path("/vehicle")
 public class ResourceVehicle {

@@ -1,4 +1,3 @@
-
 package br.com.udesc.atividade.model;
 
 import java.io.Serializable;
@@ -11,17 +10,17 @@ import javax.persistence.NamedQuery;
 
 /**
  *
- * @author SYSADMIN
+ * @author robson
  */
 @Entity
 @NamedQueries({
     @NamedQuery(name = "veiculo.tipo",
-            query = "select v from Veiculo v where v.tipo = :tipo")
-    ,@NamedQuery(name = "veiculo.montadora",
-            query = "select v from Veiculo v where v.montadora = :montadora")
-    ,@NamedQuery(name = "veiculo.motor",
-            query = "select v from Veiculo v where v.motor = :motor")
-    ,@NamedQuery(name = "veiculo.filtros",
+            query = "select v from Veiculo v where v.tipo = :tipo"),
+    @NamedQuery(name = "veiculo.montadora",
+            query = "select v from Veiculo v where v.montadora = :montadora"),
+    @NamedQuery(name = "veiculo.motor",
+            query = "select v from Veiculo v where v.motor = :motor"),
+    @NamedQuery(name = "veiculo.filtros",
             query = "select v from Veiculo v where v.tipo = :tipo and v.montadora = :montadora and v.km > :km")})
 public class Veiculo implements Serializable {
 
@@ -125,4 +124,3 @@ public class Veiculo implements Serializable {
     }
 
 }
-

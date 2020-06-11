@@ -5,7 +5,7 @@ import javax.persistence.EntityManagerFactory;
 
 /**
  *
- * @author SYSADMIN
+ * @author robson
  */
 public class GenericDao {
 
