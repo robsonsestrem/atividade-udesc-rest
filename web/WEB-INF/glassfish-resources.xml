@@ -6,7 +6,7 @@
         <property name="portNumber" value="5432"/>
         <property name="databaseName" value="VeiculosAPI"/>
         <property name="User" value="postgres"/>
-        <property name="Password" value="oxkbhn"/>
+        <property name="Password" value="123456"/>
         <property name="URL" value="jdbc:postgresql://localhost:5432/VeiculosAPI"/>
         <property name="driverClass" value="org.postgresql.Driver"/>
     </jdbc-connection-pool>    
